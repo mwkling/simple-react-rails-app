@@ -18,6 +18,8 @@ $ rails s
 
 ## Other resources
 
+[Live demo on heroku](https://simple-react-rails-app.herokuapp.com/)
+
 [Rails.js on Rails from RailsConf 2015](https://www.youtube.com/watch?v=kTSsZrub5iE)
 
 [Facebook React Docs](https://facebook.github.io/react/index.html)

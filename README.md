@@ -2,7 +2,7 @@
 
 A simple app that integrates Rails 5 with the react-rails gem.
 
-Originally created for a talk at the (Ann Arbor Ruby Meetup)[http://a2rb.org/].
+Originally created for a talk at the [Ann Arbor Ruby Meetup](http://a2rb.org/).
 
 ## Setup
 

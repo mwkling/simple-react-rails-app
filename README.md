@@ -18,12 +18,12 @@ $ rails s
 
 ## Other resources
 
-(Rails.js on Rails from RailsConf 2015)[https://www.youtube.com/watch?v=kTSsZrub5iE]
+[Rails.js on Rails from RailsConf 2015](https://www.youtube.com/watch?v=kTSsZrub5iE)
 
-(Facebook React Docs)[https://facebook.github.io/react/index.html]
+[Facebook React Docs](https://facebook.github.io/react/index.html)
 
-(react-rails gem)[https://github.com/reactjs/react-rails]
+[react-rails gem](https://github.com/reactjs/react-rails)
 
-(react_on_rails gem)[https://github.com/shakacode/react_on_rails]
+[react_on_rails gem](https://github.com/shakacode/react_on_rails)
 
-(sprockets-coffee-react gem)[https://github.com/jsdf/sprockets-coffee-react]
+[sprockets-coffee-react gem](https://github.com/jsdf/sprockets-coffee-react)

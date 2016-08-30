@@ -1,24 +1,29 @@
-# README
+# Simple react-rails demo app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple app that integrates Rails 5 with the react-rails gem.
 
-Things you may want to cover:
+Originally created for a talk at the (Ann Arbor Ruby Meetup)[http://a2rb.org/].
 
-* Ruby version
+## Setup
 
-* System dependencies
+Make sure you have rails installed.  Clone into a new directory then setup the database and start the server.
 
-* Configuration
+```
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+$ rails s
+```
 
-* Database creation
+## Other resources
 
-* Database initialization
+(Rails.js on Rails from RailsConf 2015)[https://www.youtube.com/watch?v=kTSsZrub5iE]
 
-* How to run the test suite
+(Facebook React Docs)[https://facebook.github.io/react/index.html]
 
-* Services (job queues, cache servers, search engines, etc.)
+(react-rails gem)[https://github.com/reactjs/react-rails]
 
-* Deployment instructions
+(react_on_rails gem)[https://github.com/shakacode/react_on_rails]
 
-* ...
+(sprockets-coffee-react gem)[https://github.com/jsdf/sprockets-coffee-react]

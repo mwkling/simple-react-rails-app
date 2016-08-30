@@ -6,7 +6,7 @@ Originally created for a talk at the [Ann Arbor Ruby Meetup](http://a2rb.org/).
 
 ## Setup
 
-Make sure you have rails installed.  Clone into a new directory then setup the database and start the server.
+Make sure you have rails and postgres installed.  Clone repo into a new directory.  Copy the .env.example file to create a .env file with your local postgres credentials.  Then, setup the database and start the server.
 
 ```
 $ bundle install

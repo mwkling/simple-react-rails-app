@@ -1,6 +1,6 @@
 class JobsController < ApplicationController
   def index
     @jobs = Job.all
-    @title = "Expired Job Postings"
+    @title = "Job Postings"
   end
 end

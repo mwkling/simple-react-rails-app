@@ -4,6 +4,8 @@ A simple app that integrates Rails 5 with the react-rails gem.
 
 Originally created for a talk at the [Ann Arbor Ruby Meetup](http://a2rb.org/).
 
+Slides for that talk are available [here](http://goo.gl/ttFO3x).
+
 ## Setup
 
 Make sure you have rails and postgres installed.  Clone repo into a new directory.  Copy the .env.example file to create a .env file with your local postgres credentials.  Then, setup the database and start the server.

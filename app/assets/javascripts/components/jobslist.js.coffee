@@ -21,6 +21,18 @@ Job = React.createClass
       <Favoritable text={@props.city} toggleFavorite={@props.toggleFavorite} favorites={@props.favorites} />
     </tr>
 
+Sidebar = React.createClass
+  render: ->
+    favorites = @props.favorites.map (text) ->
+      <tr><td>{text}</td></tr>
+
+    <div className="right">
+      <h1>Favorites</h1>
+      <table>
+        {favorites}
+      </table>
+    </div>
+
 JobHeader = React.createClass
   render: ->
     <tr>
@@ -51,8 +63,6 @@ JobHeader = React.createClass
                  favorites={@state.favorites} />
     ).bind(@)
 
-    favorites = @state.favorites.map (text) ->
-      <tr><td>{text}</td></tr>
 
     <div>
       <div className="left">
@@ -62,10 +72,5 @@ JobHeader = React.createClass
           {jobs}
         </table>
       </div>
-      <div className="right">
-        <h1>Favorites</h1>
-        <table>
-          {favorites}
-        </table>
-      </div>
+      <Sidebar favorites={@state.favorites} />
     </div>
